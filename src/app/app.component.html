@@ -1,0 +1,26 @@
+<h1>Calculadora</h1>
+
+<input type="text" value={{pantalla1}} [readOnly]="true">
+<br>
+<button (click)="clickValue('7')">7</button>
+<button (click)="clickValue('8')">8</button>
+<button (click)="clickValue('9')">9</button>
+<button (click)="operacion('+')">+</button>
+<br>
+<button (click)="clickValue('4')">4</button>
+<button (click)="clickValue('5')">5</button>
+<button (click)="clickValue('6')">6</button>
+<button (click)="operacion('-')">-</button>
+<br>
+<button (click)="clickValue('1')">1</button>
+<button (click)="clickValue('2')">2</button>
+<button (click)="clickValue('3')">3</button>
+<button (click)="operacion('*')">*</button>
+<br>
+<button (click)="clickValue('0')">0</button>
+<button (click)="operacion('/')">/</button>
+<button (click)="resultado()">=</button>
+<button (click)="reset()">C</button>
+
+
+
